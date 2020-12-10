@@ -3,15 +3,15 @@ const contact = document.getElementById("contact")
 const workInfo = document.getElementById("workInfo")
 const contactInfo = document.getElementById("contactInfo")
 const accordion = document.getElementById("accordion")
-
+let buttonId
 
 contact.addEventListener("click", () => {
-    
+    buttonId = "contact"
     animate(document.body)
 })
 
 work.addEventListener("click", () => {
-    
+    buttonId = "work"
     animate(document.body)
 })
 
@@ -21,7 +21,7 @@ function animate(el) {
     "opacity 1 0 1s linear"  
     ], {
         onTransitionEnd: function(el, finished) {
-           window.location.href = "contact.html" 
+           window.location.href = `${buttonId}.html`
         }
     })
     
