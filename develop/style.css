@@ -1,3 +1,19 @@
+a {
+    color: burlywood;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+a:active {
+    color: darkred;
+}
+
+body {
+    
+    background-image: url('../assets/mitchell-luo-zWysbA3BhZg-unsplash.jpg');
+}
 #name {
     font-size: 96px;
 }
@@ -18,9 +34,10 @@ h2 {
     margin-top: 15px;
 }
 
-.card:hover {
-    transition: 500ms;
+.card:active {
+    transition: 150ms;
     background: slategrey;
     color: blanchedalmond;
 }
+
 
