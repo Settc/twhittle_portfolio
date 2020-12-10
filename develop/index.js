@@ -8,9 +8,10 @@ function animate(el) {
     "opacity 1 0 1s linear"  
     ], {
         onTransitionEnd: function(el, finished) {
-           window.location.href = "develop/contact.html" 
+           window.location.href = "contact.html" 
         }
     })
+    
 }
 
 contact.addEventListener("click", () => {
