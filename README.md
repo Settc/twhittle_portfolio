@@ -3,7 +3,8 @@
 
 ## Introduction
   This is my newest personal portfolio website to showcase a few of the 
-  projects I've been working on. Here's a link to the deployed page:
+  projects I've been working on. Here's a link to the deployed page: (https://settc.github.io/twhittle_portfolio/)
+
 
    
 ![Thomas Whittle portfolio screenshot](assets/portfolio_snip.PNG)
