@@ -8,6 +8,19 @@ h2 {
     margin-bottom: 20px;
 }
 
-#contactContainer, #list {
+#contactContainer, #cardContainer {
     opacity: 0;
 }
+
+.card {
+    border:none;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.card:hover {
+    transition: 500ms;
+    background: slategrey;
+    color: blanchedalmond;
+}
+
